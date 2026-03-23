@@ -58,7 +58,7 @@ B = np.array(eval(input()))
 lu,piv = lu_factor(A)
 X = lu_solve((lu,piv),B)
 print(X)
-
+~~~
 
 ## Output:
 ![alt text](image.png)
